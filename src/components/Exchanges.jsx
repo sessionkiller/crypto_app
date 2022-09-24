@@ -218,7 +218,7 @@ const Exchanges = () => {
 
   return (
     <>
-      <h1 style={{color: 'red', textAlign: 'center'}}><ExclamationCircleOutlined /> <span>Dummy Data</span></h1>
+      <h1 style={{color: 'red', textAlign: 'center'}}><ExclamationCircleOutlined /> <span>Dummy Data !</span></h1>
       <Row>
         <Col span={6}>Exchanges</Col>
         <Col span={6}>24h Trade Volume</Col>
