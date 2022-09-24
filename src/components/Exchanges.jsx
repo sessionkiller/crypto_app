@@ -4,7 +4,6 @@ import { Collapse, Row, Col, Typography, Avatar } from 'antd';
 import HTMLReactParser from 'html-react-parser';
 import { ExclamationCircleOutlined } from '@ant-design/icons'
 
-import Loader from './Loader';
 import { useState } from 'react';
 
 const { Text } = Typography;
@@ -215,7 +214,7 @@ const DUMMY = [
 ];
 
 const Exchanges = () => {
-  const [ exchangesList, setExchangesList] = useState(DUMMY);
+  const [ exchangesList] = useState(DUMMY);
 
   return (
     <>
